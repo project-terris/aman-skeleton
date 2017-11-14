@@ -1,0 +1,30 @@
+{
+  "name": "project-terris/aman-skeleton",
+  "type": "project",
+  "description" : "A skeleton project for building out PHP APIs using the Aman Framework",
+  "keywords": ["php", "aman", "framework", "skeleton"],
+  "licence": "MIT",
+  "require": {
+    "php": ">=7.1.0",
+    "project-terris/aman": "dev-master"
+  },
+  "require-dev":{
+    "phpunit/phpunit": "4.8.*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ben Soer",
+      "email": "ben@soernet.ca"
+    },
+    {
+      "name": "Sean Hodgies",
+      "email": "seanhodgies@gmail.com"
+    }
+  ],
+  "autoload":{
+    "psr-4":{
+
+    }
+  }
+}

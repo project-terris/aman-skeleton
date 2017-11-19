@@ -5,8 +5,7 @@
   "keywords": ["php", "aman", "framework", "skeleton"],
   "licence": "MIT",
   "require": {
-    "php": ">=7.1.0",
-    "project-terris/aman": "dev-master"
+    "php": ">=7.1.0"
   },
   "require-dev":{
     "phpunit/phpunit": "4.8.*"
@@ -24,7 +23,14 @@
   ],
   "autoload":{
     "psr-4":{
-
+      "Aman\\Models\\": "src\\lib\\models\\",
+      "Aman\\Routing\\": "src\\lib\\routing\\",
+      "Aman\\Controllers\\": ["src\\lib\\controllers\\", "src\\controllers\\"],
+      "Aman\\Contracts\\": "src\\lib\\contracts\\",
+      "Aman\\Lib\\" : "src\\lib\\",
+      "Aman\\Lib\\Response\\": "src\\lib\\response\\",
+      "Aman\\Lib\\Request\\": "src\\lib\request\\",
+      "Aman\\Exception\\": "src\\ex\\"
     }
   }
 }
